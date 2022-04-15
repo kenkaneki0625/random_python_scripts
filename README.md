@@ -1,1 +1,3 @@
-# random_python_scripts
+`pip install beautifulsoup4`
+`python japanese_notes_webscrapper.py`
+`pip install lxml`

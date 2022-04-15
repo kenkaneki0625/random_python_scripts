@@ -14,18 +14,10 @@ fieldnames = ['result']
 writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 writer.writeheader()
 
+# basically add rest of your links here in this link
 thislist = [
   "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-1.html", 
   "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-2.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-3.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-4.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-5.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-6.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-7.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-8.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-9.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-10.html",
-  "https://learnjapanesedaily.com/jlpt-n4-vocabulary-week-11.html"
   ]
 
 try:

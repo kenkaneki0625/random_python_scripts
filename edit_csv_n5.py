@@ -1,7 +1,7 @@
 # cleaned the file from n5vocab.csv to notes2.csv
 # going to use this cleaned file for project database
 # IDK if I could have done this any smarter way... if you know then suggest me hehee...
-
+# Used this same code for n4vocabclean.csv as well
 import csv
 csv_file_read = open('notes.csv', mode='r')
 reader = csv.reader(csv_file_read, delimiter=",")
